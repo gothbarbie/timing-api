@@ -3,18 +3,25 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "engines": {
+    "node": "8.12.0",
+    "npm": "6.4.1"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/gothbarbie/timing-api.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "Hanna Söderström <contact@hannasoderstrom.com>",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/gothbarbie/timing-api/issues"
   },
-  "homepage": "https://github.com/gothbarbie/timing-api#readme"
+  "homepage": "https://github.com/gothbarbie/timing-api#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
 }
