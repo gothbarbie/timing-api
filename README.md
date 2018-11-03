@@ -2,6 +2,10 @@
 
 This is an API for the [Timing Application](https://github.com/gothbarbie/timing-2).
 
+## Pre-requisits
+
+You need credentials in the file `config/keys.js`. Ask administrator for these as they are not commited to file history.
+
 ## Start
 
 `node index.js`
