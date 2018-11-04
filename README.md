@@ -2,9 +2,9 @@
 
 This is an API for the [Timing Application](https://github.com/gothbarbie/timing-2).
 
-## Pre-requisits
+## Pre-requisites
 
-You need credentials in the file `config/keys.js`:
+You need credentials in the file `config/dev.js`:
 
 ```js
 module.exports = {
@@ -15,7 +15,7 @@ module.exports = {
 }
 ```
 
-Ask administrator for these as they are not commited to file history.
+Ask administrator for these as they are not commited to version control.
 
 In order to run `npm run dev` you need Nodemon installed, globally, or you can add it to the project (it's not included in dependencies per default).
 
